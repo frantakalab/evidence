@@ -1,1 +1,0 @@
-select * from read_csv('https://storage.golemio.cz/ckan/tendersystems/verejne_zakazky.csv')

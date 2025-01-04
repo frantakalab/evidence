@@ -1,0 +1,10 @@
+SELECT
+    distance,
+    moving_time,
+    total_elevation_gain,
+    name,
+    gear_id,
+    start_date_local,
+    commute
+FROM
+    read_json('sources/strava/all_strava_activities.json');

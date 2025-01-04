@@ -1,5 +1,5 @@
 # This file was automatically generated
-name: public_tenders
+name: weather
 type: duckdb
 options:
   filename: ':memory:'

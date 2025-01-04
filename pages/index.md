@@ -1,33 +1,8 @@
 ---
-title: Prototyp
+title: O mě
 ---
 
+Jsem František, vedu datový tým v pražské datové platformě [Golemio](https://golemio.cz/). Tohle je můj soukromý projekt a vyjadřuje moje osobní postoje.
 
-
-```sql public_tenders
-  select
-      *
-  from public_tenders.public_tenders
-```
-
-
-```sql public_tenders_count
-  select
-      count(*) as count_tenders
-  from public_tenders.public_tenders
-```
-<BigValue 
-  data={public_tenders_count} 
-  value=count_tenders
-/>
-
-```sql public_tenders_sum
-  select
-      sum(smluvni_cena_bez_dph_kc) as sum_smluvni_cena_bez_dph_kc
-  from public_tenders.public_tenders
-```
-<BigValue 
-  data={public_tenders_sum} 
-  value=sum_smluvni_cena_bez_dph_kc
-/>
+- [LinkedIn](https://www.linkedin.com/in/frantisek-kalab/)
 
